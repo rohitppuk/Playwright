@@ -73,7 +73,7 @@ test('Register Page Automation Script', async ({ page }) => {
 
 
     await page.click("//button[@id='register-button']");
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(10000);
 
 
 
